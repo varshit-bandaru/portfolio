@@ -17,7 +17,7 @@ const SideBar: FC<SideBarProps> = ({}) => {
             {/* Sidebar Container */}
 
             <div className="toggle flex flex-col lg:m-5 w-full">
-                <Logo />
+                 <Logo />
                 <Menu />
             </div>
         </aside>
