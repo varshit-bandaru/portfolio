@@ -20,7 +20,7 @@ export default function Home() {
       <Cover />
       <div className="flex flex-col gap-10 lg:px-10">
         {/* <Hero /> */}
-        <ProjectCardSection title="Projects" data={projectCard} />
+        <ProjectCardSection title="Projects" data={projectCard} /> 
         <MoreProjects title="More projects" data={moreProjects} />
 
         <CardSection title="Web3" data={web3Cards} />
