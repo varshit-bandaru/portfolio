@@ -7,8 +7,9 @@ const ProfilePic: FC<ProfilePicProps> = ({}) => {
     return (
         <div className="">
             <Image
+            style={{ transform: "scale(1.5)"}}
                 alt="Varshit Bandaru"
-                src="/profilePic.jpeg"
+                src="/images/profile_pic.jpg"
                 height={120}
                 width={120}
                 className="object-cover border-4 border-white rounded-full shadow-md"
