@@ -14,20 +14,23 @@ const TechStack: FC<TechStackProps> = ({}) => {
           title="Frontend"
           classaName="bg-[#4f91f2]"
           tech={[
-            'HTML',
-            'CSS',
-            // 'Tailwind',
+            'React Js',
             'Next Js 14',
+            'React Native',
+            'HTML',
+            'CSS',    
+            // 'Tailwind',
             'Material UI',
             'Javascript',
-            'Typescript',
-            'React Js',
+            'Typescript'
+          
+
           ]}
         />
         <TechCard
           title="Backend"
           classaName="bg-[#f37c36]"
-          tech={['Node Js', 'Express Js', 'Next Auth']}
+          tech={['Node Js', 'Express Js', 'Next Auth','Core PHP','Code Igniter']}
         />
         <TechCard
           title="Database"

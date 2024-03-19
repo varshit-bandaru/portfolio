@@ -29,13 +29,13 @@ export interface IProjectSectionCardData {
 }
 
 export const projectCard: IProjectSectionCardData[] = [
-  {
-    id: 1,
-    title: 'Discord Clone',
-    techStack: 'Next.js 13, React Hook Form, Zustand, Shadcn, Typescript',
-    imageUrl: 'discord-clone.jpeg',
-    href: 'https://github.com/nwaliaez/discord-clone',
-  }
+  // {
+  //   id: 1,
+  //   title: 'Discord Clone',
+  //   techStack: 'Next.js 13, React Hook Form, Zustand, Shadcn, Typescript',
+  //   imageUrl: 'discord-clone.jpeg',
+  //   href: 'https://github.com/nwaliaez/discord-clone',
+  // }
 ];
 
 export const moreProjects = [
