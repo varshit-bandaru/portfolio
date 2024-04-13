@@ -30,7 +30,7 @@ const TechStack: FC<TechStackProps> = ({}) => {
         <TechCard
           title="Backend"
           classaName="bg-[#f37c36]"
-          tech={['Node Js', 'Express Js', 'Next Auth','Core PHP','Code Igniter']}
+          tech={['Node Js', 'Express Js','Koa JS', 'Kafka','Next Auth','Core PHP','Code Igniter']}
         />
         <TechCard
           title="Database"
@@ -47,7 +47,7 @@ const TechStack: FC<TechStackProps> = ({}) => {
             // 'Jenkins',
             // 'Ansible',
             // 'Terraform',
-            // 'AWS',
+            'AWS',
           ]}
         />
       </div>
